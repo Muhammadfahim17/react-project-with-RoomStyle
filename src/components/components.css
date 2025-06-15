@@ -1,0 +1,34 @@
+.cart {
+    width: 160px;
+    /* border: 2px solid; */
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.cartproduct {
+    width: 300px;
+    /* border: 2px solid; */
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    padding: 5px;
+    font-family: sans-serif;
+}
+
+.cartshop {
+    width: 350px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+}

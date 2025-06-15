@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+.box {
+    margin-top: 80px;
+    background-image: url('./assets/bg (3).png');
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.container {
+    background-image: url('./assets/img (14).png');
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    margin-top: 80px;
+    font-family: sans-serif;
+}
