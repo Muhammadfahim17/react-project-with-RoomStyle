@@ -234,7 +234,7 @@ const App = () => {
 
 
       <div className="container">
-        <div className='bg-[#FFFFFF] w-[350px] h-[350px] flex flex-col items-center p-[10px] rounded-xl gap-[15px] ml-[20px] relative top-[20%] sm:w-[540px] sm:gap-[25px] sm:left-[50%]'>
+        <div className='bg-[#FFFFFF] w-[320px] h-[350px] flex flex-col items-center p-[10px] rounded-xl gap-[15px] ml-[20px] relative top-[20%] sm:w-[540px] sm:gap-[25px] sm:left-[50%]'>
           <h3 className='text-[#999999] font-bold'>LIMITED EDITION</h3>
           <h1 className='text-[#111111] font-bold text-[40px]'>Unique Style</h1>
           <p className='text-[#555555] text-center text-[18px] sm:leading-[35px]'>The watch is carefully designed with quality materials, such as the domed sapphire crystal, and the meticulous level of detail - from the dial to the delicate gold hour markers.</p>
@@ -258,16 +258,16 @@ const App = () => {
     </div>
 
     <div className='flex flex-wrap justify-center gap-[25px] sm:my-[80px]'>
-      <img className='w-[170px] sm:w-[210px]' src={image25} alt="" />
-      <img className='w-[170px] sm:w-[210px]' src={image26} alt="" />
-      <img className='w-[170px] sm:w-[210px]' src={image27} alt="" />
-      <img className='w-[170px] sm:w-[210px]' src={image28} alt="" />
-      <img className='w-[170px] sm:w-[210px]' src={image29} alt="" />
-      <img className='w-[170px] sm:w-[210px]' src={image30} alt="" />
+      <img className='w-[160px] sm:w-[210px]' src={image25} alt="" />
+      <img className='w-[160px] sm:w-[210px]' src={image26} alt="" />
+      <img className='w-[160px] sm:w-[210px]' src={image27} alt="" />
+      <img className='w-[160px] sm:w-[210px]' src={image28} alt="" />
+      <img className='w-[160px] sm:w-[210px]' src={image29} alt="" />
+      <img className='w-[160px] sm:w-[210px]' src={image30} alt="" />
     </div>
     
 
-    <div className='mt-[180px] bg-[#F5F5F5] p-[15px] flex flex-wrap sm:flex-row sm:flex-nowrap sm:py-[100px]'>
+    <div className='mt-[130px] bg-[#F5F5F5] p-[15px] flex flex-wrap sm:flex-row sm:flex-nowrap sm:py-[100px]'>
       <div className='w-[95%] m-auto flex flex-col gap-[15px] items-start mb-[60px] sm:w-[400px] sm:m-0'>
         <img src={image1} alt="" />
         <p className='text-[#555555] font-bold text-[14px]'>268 St, South New York/NY 98944, United States</p>
@@ -297,10 +297,10 @@ const App = () => {
       </div>
 
       <div className='sm:w-[420px] flex flex-col items-start'>
-        <h2 className='text-[#111111] font-bold text-[18px]'>Sign Up to Newsletter</h2>
-        <p className='text-[#555555] text-[16px] font-bold leading-[30px] sm:my-[20px]'>Enter your Email to get $10 off your first order and free shipping Updates information on Sales and Offers</p>
-        <div className=' mt-[30px] flex justify-center gap-[10px]'>
-          <input className='bg-[#FFFFFF] px-[20px] py-[12px] rounded-[25px]' placeholder='Enter your email...' type="text" />
+        <h2 className='text-[#111111] my-[25px] font-bold text-[18px] sm:m-0'>Sign Up to Newsletter</h2>
+        <p className='text-[#555555] my-[10px] w-[95%] text-[16px] font-bold leading-[30px] sm:my-[20px] sm:w-[100%]'>Enter your Email to get $10 off your first order and free shipping Updates information on Sales and Offers</p>
+        <div className=' mt-[50px] flex justify-center gap-[10px]'>
+          <input className='bg-[#FFFFFF] px-[10px] py-[12px] rounded-[25px]' placeholder='Enter your email...' type="text" />
           <button className='bg-[#111111] text-[white] px-[30px] py-[10px] rounded-[30px] font-bold'>Subscribe</button>
         </div>
       </div>
