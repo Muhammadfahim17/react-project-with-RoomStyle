@@ -267,8 +267,8 @@ const App = () => {
     </div>
     
 
-    <div className='mt-[130px] bg-[#F5F5F5] p-[15px] flex flex-wrap sm:flex-row sm:flex-nowrap sm:py-[100px]'>
-      <div className='w-[95%] m-auto flex flex-col gap-[15px] items-start mb-[60px] sm:w-[400px] sm:m-0'>
+    <div className='mt-[130px] bg-[#F5F5F5] p-[15px] flex flex-wrap sm:flex-row sm:flex-nowrap sm:py-[100px] '>
+      <div className='w-[95%] m-auto flex flex-col gap-[15px] items-start mb-[60px] sm:w-[400px] sm:m-0 sm:gap-[25px]'>
         <img src={image1} alt="" />
         <p className='text-[#555555] font-bold text-[14px]'>268 St, South New York/NY 98944, United States</p>
         <p className='text-[#555555] font-bold text-[14px]'>+222-1800-2628</p>
@@ -296,12 +296,12 @@ const App = () => {
         <p className='text-[#555555] text-[16px] font-bold'>Laptop & Ipad</p>
       </div>
 
-      <div className='sm:w-[420px] flex flex-col items-start'>
+      <div className='sm:w-[420px] flex flex-col items-start '>
         <h2 className='text-[#111111] my-[25px] font-bold text-[18px] sm:m-0'>Sign Up to Newsletter</h2>
         <p className='text-[#555555] my-[10px] w-[95%] text-[16px] font-bold leading-[30px] sm:my-[20px] sm:w-[100%]'>Enter your Email to get $10 off your first order and free shipping Updates information on Sales and Offers</p>
         <div className=' mt-[50px] flex justify-center gap-[10px]'>
-          <input className='bg-[#FFFFFF] px-[10px] py-[12px] rounded-[25px]' placeholder='Enter your email...' type="text" />
-          <button className='bg-[#111111] text-[white] px-[30px] py-[10px] rounded-[30px] font-bold'>Subscribe</button>
+          <input className='bg-[#FFFFFF] px-[5px] py-[12px] rounded-[25px] sm:px-[25px]' placeholder='Enter your email...' type="text" />
+          <button className='bg-[#111111] text-[white] px-[25px] py-[10px] rounded-[30px] font-bold sm:px-[30px]'>Subscribe</button>
         </div>
       </div>
     </div>
